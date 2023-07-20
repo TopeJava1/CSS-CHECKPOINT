@@ -2,13 +2,37 @@
 <html>
   <head>
     <title>TEMITOPE PORTFOLIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   </head>
+
+  
 
 
   <body>
     <h1><b><u>TEMITOPE ARCHITECTURAL PORTFOLIO</u></b></h1>
     <!-- this is a header -->
     <p>
+
+      <nav> 
+        <p>
+          <a href="#HOME"> HOME</a>
+        </p>
+        
+        <p>
+          <a href="#ABOUT"> ABOUT</a>
+        </p>
+        <p>
+          <a href="#RESUME"> RESUME</a>
+        </p>
+        <p>
+          <a href="#CONTACT"> CONTACT</a>
+        </p>
+        </p>
+      </nav>
+         
     <a name = WORK></a>
     <h3> <u>ABOUT</u></h3>
     <img
@@ -32,7 +56,8 @@
       </ul>
          <!-- bullet -->
 
-      <a name = WORK></a>
+      <div class="WORK">
+         <a name = WORK></a>
       <h3> <u>WORKS</u></h3> <p></p>
       I am the best fit to hire for any of the following :
 
@@ -47,6 +72,7 @@
       - Landscape Design <br>
       <a href="https://www.upwork.com/freelancers/temitopemicheal">CLICK HERE TO SEE MY WORKS</a> <br>
       <p></p>
+      </div>
      
 
       <a name = RESUME></a>
@@ -60,9 +86,53 @@
     09060671824, Topejava@gmail.com
   </p>
     </h5>
+    <form>
+      <label for="NAME"> NAME</label>
+     
+      <input type = "text" name = "Firstname" placeholder = "Enter your name" id="NAME"/><br>
+      <label for="EMAIL"> EMAIL</label>
+      <input type = "text" name = "Email" placeholder = "Enter your email" id="EMAIL"/> <br>
+      <label for="NUMBER"> PHONE NO</label>
+      <input type = "number" name = "NUMBER" placeholder = "Enter your NUMBER" id="NUMBER"/> <br>
+
+    <input type="submit" value="Register" /> <br>
+     <h3> <u>GENDER</u></h3>
+
+      <label for="GENDER"> MALE</label> 
+     
+      <input type = "RADIO" name = "GENDER" placeholder = "MALE" value = "M"/> <br>
+      
+     
+      <label for="GENDER"> FEMALE</label>
+     
+      <input type = "RADIO" name = "GENDER" placeholder = "FEMALE" value="f" /> <br>
+
+      <h3> <u>SELECT YOUR COMPLETED SUPERSKILL</u></h3>
+      <label for="GIT"> GITHUB</label>
+     
+      <input type = "checkbox" name = "SKILL" placeholder = "GITHUB" /> <br>
+
+      <label for="HTML"> HTML</label>
+     
+      <input type = "checkbox" name = "SKILL" placeholder = "HTML" /> <br>
+
+      <label for="CSS"> CSS</label>
+     
+      <input type = "checkbox" name = "SKILL" placeholder = "CSS" /> <br>
+
+      <label for="CSS LAYOUT"> CSS LAYOUT</label>
+     
+      <input type = "checkbox" name = "SKILL" placeholder = "CSS" /> <br>
+
+
+      
+
+    </form>
+    <nav> 
     <p>
       <a href="#HOME"> HOME</a>
     </p>
+    
     <p>
       <a href="#ABOUT"> ABOUT</a>
     </p>
@@ -72,6 +142,8 @@
     <p>
       <a href="#CONTACT"> CONTACT</a>
     </p>
-     </p>
+    </p>
+  </nav>
+     
   </body>
 </html>
